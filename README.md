@@ -1,4 +1,4 @@
-# Directly Training Project
+# High Order Components
 
 # Back end deployment to Heroku
 Create a [Heroku](https://www.heroku.com) account.
