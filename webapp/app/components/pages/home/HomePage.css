@@ -1,0 +1,15 @@
+table td, 
+table th {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-list-action-buttons {
+  display: flex;
+  align-content: center;
+  align-items: flex-end;
+}
+
+.user-list-action-buttons button {
+  margin-left: 10px;
+}
