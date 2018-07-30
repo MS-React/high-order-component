@@ -1,5 +1,6 @@
 const buildLogFolder = 'buildlog';
 module.exports = {
+  verbose: true,
   setupFiles: [
     './enzyme.js'
   ],
@@ -24,5 +25,10 @@ module.exports = {
       theme: 'darkTheme',
       sort: 'status'
     }]
-  ]
+  ],
+  setupTestFrameworkScriptFile: './enzyme.js',
+  setupFiles: [
+    './__mocks__/localStorage.js'
+  ],
+  testURL: 'http://localhost/',
 };

@@ -10,7 +10,7 @@ import NotFoundPage from './pages/not_found/NotFoundPage';
 import HomePage from './pages/home/HomePage';
 
 export class Main extends React.Component {
-  static propTyoes = {
+  static propTypes = {
     actions: PropTypes.object.isRequired,
     isAuthenticated: PropTypes.bool,
     usersActions: PropTypes.object.isRequired
@@ -22,12 +22,12 @@ export class Main extends React.Component {
 
   render() {
     return (
-      <div>        
+      <div>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/login" component={LoginPage} />
           <Route component={NotFoundPage} />
-        </Switch>        
+        </Switch>
       </div>
     );
   }

@@ -1,1 +1,5 @@
 .vscode/settings.json
+node_modules/
+buildlog/
+package-lock.json
+yarn.lock
