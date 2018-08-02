@@ -63,6 +63,11 @@ npm run lint
 npm run sass-lint
 ```
 
+**build from production**
+```ssh
+npm run build
+```
+
 
 # High Order Components
 
